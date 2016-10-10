@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD4BE0A11DAB395400ED38B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4BE0A01DAB395400ED38B4 /* main.m */; };
+		BD4BE0A41DAB395400ED38B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4BE0A31DAB395400ED38B4 /* AppDelegate.m */; };
+		BD4BE0A71DAB395400ED38B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4BE0A61DAB395400ED38B4 /* ViewController.m */; };
+		BD4BE0AA1DAB395400ED38B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4BE0A81DAB395400ED38B4 /* Main.storyboard */; };
+		BD4BE0AC1DAB395400ED38B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4BE0AB1DAB395400ED38B4 /* Assets.xcassets */; };
+		BD4BE0AF1DAB395400ED38B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4BE0AD1DAB395400ED38B4 /* LaunchScreen.storyboard */; };
+		BD4BE0BA1DAB395400ED38B4 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4BE0B91DAB395400ED38B4 /* _________Tests.m */; };
+		BD4BE0C51DAB395400ED38B4 /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4BE0C41DAB395400ED38B4 /* _________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD4BE0B61DAB395400ED38B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4BE0941DAB395400ED38B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4BE09B1DAB395400ED38B4;
+			remoteInfo = "创建地图上的大头针";
+		};
+		BD4BE0C11DAB395400ED38B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4BE0941DAB395400ED38B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4BE09B1DAB395400ED38B4;
+			remoteInfo = "创建地图上的大头针";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD4BE09C1DAB395400ED38B4 /* 创建地图上的大头针.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "创建地图上的大头针.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4BE0A01DAB395400ED38B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD4BE0A21DAB395400ED38B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD4BE0A31DAB395400ED38B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD4BE0A51DAB395400ED38B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD4BE0A61DAB395400ED38B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD4BE0A91DAB395400ED38B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD4BE0AB1DAB395400ED38B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD4BE0AE1DAB395400ED38B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD4BE0B01DAB395400ED38B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4BE0B51DAB395400ED38B4 /* 创建地图上的大头针Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "创建地图上的大头针Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4BE0B91DAB395400ED38B4 /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		BD4BE0BB1DAB395400ED38B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4BE0C01DAB395400ED38B4 /* 创建地图上的大头针UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "创建地图上的大头针UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4BE0C41DAB395400ED38B4 /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
+		BD4BE0C61DAB395400ED38B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD4BE0991DAB395400ED38B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4BE0B21DAB395400ED38B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4BE0BD1DAB395400ED38B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD4BE0931DAB395400ED38B4 = {
+			isa = PBXGroup;
+			children = (
+				BD4BE09E1DAB395400ED38B4 /* 创建地图上的大头针 */,
+				BD4BE0B81DAB395400ED38B4 /* 创建地图上的大头针Tests */,
+				BD4BE0C31DAB395400ED38B4 /* 创建地图上的大头针UITests */,
+				BD4BE09D1DAB395400ED38B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD4BE09D1DAB395400ED38B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD4BE09C1DAB395400ED38B4 /* 创建地图上的大头针.app */,
+				BD4BE0B51DAB395400ED38B4 /* 创建地图上的大头针Tests.xctest */,
+				BD4BE0C01DAB395400ED38B4 /* 创建地图上的大头针UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD4BE09E1DAB395400ED38B4 /* 创建地图上的大头针 */ = {
+			isa = PBXGroup;
+			children = (
+				BD4BE0A21DAB395400ED38B4 /* AppDelegate.h */,
+				BD4BE0A31DAB395400ED38B4 /* AppDelegate.m */,
+				BD4BE0A51DAB395400ED38B4 /* ViewController.h */,
+				BD4BE0A61DAB395400ED38B4 /* ViewController.m */,
+				BD4BE0A81DAB395400ED38B4 /* Main.storyboard */,
+				BD4BE0AB1DAB395400ED38B4 /* Assets.xcassets */,
+				BD4BE0AD1DAB395400ED38B4 /* LaunchScreen.storyboard */,
+				BD4BE0B01DAB395400ED38B4 /* Info.plist */,
+				BD4BE09F1DAB395400ED38B4 /* Supporting Files */,
+			);
+			path = "创建地图上的大头针";
+			sourceTree = "<group>";
+		};
+		BD4BE09F1DAB395400ED38B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD4BE0A01DAB395400ED38B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD4BE0B81DAB395400ED38B4 /* 创建地图上的大头针Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4BE0B91DAB395400ED38B4 /* _________Tests.m */,
+				BD4BE0BB1DAB395400ED38B4 /* Info.plist */,
+			);
+			path = "创建地图上的大头针Tests";
+			sourceTree = "<group>";
+		};
+		BD4BE0C31DAB395400ED38B4 /* 创建地图上的大头针UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4BE0C41DAB395400ED38B4 /* _________UITests.m */,
+				BD4BE0C61DAB395400ED38B4 /* Info.plist */,
+			);
+			path = "创建地图上的大头针UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD4BE09B1DAB395400ED38B4 /* 创建地图上的大头针 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4BE0C91DAB395400ED38B4 /* Build configuration list for PBXNativeTarget "创建地图上的大头针" */;
+			buildPhases = (
+				BD4BE0981DAB395400ED38B4 /* Sources */,
+				BD4BE0991DAB395400ED38B4 /* Frameworks */,
+				BD4BE09A1DAB395400ED38B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "创建地图上的大头针";
+			productName = "创建地图上的大头针";
+			productReference = BD4BE09C1DAB395400ED38B4 /* 创建地图上的大头针.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD4BE0B41DAB395400ED38B4 /* 创建地图上的大头针Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4BE0CC1DAB395400ED38B4 /* Build configuration list for PBXNativeTarget "创建地图上的大头针Tests" */;
+			buildPhases = (
+				BD4BE0B11DAB395400ED38B4 /* Sources */,
+				BD4BE0B21DAB395400ED38B4 /* Frameworks */,
+				BD4BE0B31DAB395400ED38B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4BE0B71DAB395400ED38B4 /* PBXTargetDependency */,
+			);
+			name = "创建地图上的大头针Tests";
+			productName = "创建地图上的大头针Tests";
+			productReference = BD4BE0B51DAB395400ED38B4 /* 创建地图上的大头针Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD4BE0BF1DAB395400ED38B4 /* 创建地图上的大头针UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4BE0CF1DAB395400ED38B4 /* Build configuration list for PBXNativeTarget "创建地图上的大头针UITests" */;
+			buildPhases = (
+				BD4BE0BC1DAB395400ED38B4 /* Sources */,
+				BD4BE0BD1DAB395400ED38B4 /* Frameworks */,
+				BD4BE0BE1DAB395400ED38B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4BE0C21DAB395400ED38B4 /* PBXTargetDependency */,
+			);
+			name = "创建地图上的大头针UITests";
+			productName = "创建地图上的大头针UITests";
+			productReference = BD4BE0C01DAB395400ED38B4 /* 创建地图上的大头针UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD4BE0941DAB395400ED38B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "上海均衡";
+				TargetAttributes = {
+					BD4BE09B1DAB395400ED38B4 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					BD4BE0B41DAB395400ED38B4 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD4BE09B1DAB395400ED38B4;
+					};
+					BD4BE0BF1DAB395400ED38B4 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD4BE09B1DAB395400ED38B4;
+					};
+				};
+			};
+			buildConfigurationList = BD4BE0971DAB395400ED38B4 /* Build configuration list for PBXProject "创建地图上的大头针" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD4BE0931DAB395400ED38B4;
+			productRefGroup = BD4BE09D1DAB395400ED38B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD4BE09B1DAB395400ED38B4 /* 创建地图上的大头针 */,
+				BD4BE0B41DAB395400ED38B4 /* 创建地图上的大头针Tests */,
+				BD4BE0BF1DAB395400ED38B4 /* 创建地图上的大头针UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD4BE09A1DAB395400ED38B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4BE0AF1DAB395400ED38B4 /* LaunchScreen.storyboard in Resources */,
+				BD4BE0AC1DAB395400ED38B4 /* Assets.xcassets in Resources */,
+				BD4BE0AA1DAB395400ED38B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4BE0B31DAB395400ED38B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4BE0BE1DAB395400ED38B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD4BE0981DAB395400ED38B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4BE0A71DAB395400ED38B4 /* ViewController.m in Sources */,
+				BD4BE0A41DAB395400ED38B4 /* AppDelegate.m in Sources */,
+				BD4BE0A11DAB395400ED38B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4BE0B11DAB395400ED38B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4BE0BA1DAB395400ED38B4 /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4BE0BC1DAB395400ED38B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4BE0C51DAB395400ED38B4 /* _________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD4BE0B71DAB395400ED38B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4BE09B1DAB395400ED38B4 /* 创建地图上的大头针 */;
+			targetProxy = BD4BE0B61DAB395400ED38B4 /* PBXContainerItemProxy */;
+		};
+		BD4BE0C21DAB395400ED38B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4BE09B1DAB395400ED38B4 /* 创建地图上的大头针 */;
+			targetProxy = BD4BE0C11DAB395400ED38B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD4BE0A81DAB395400ED38B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4BE0A91DAB395400ED38B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD4BE0AD1DAB395400ED38B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4BE0AE1DAB395400ED38B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD4BE0C71DAB395400ED38B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD4BE0C81DAB395400ED38B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD4BE0CA1DAB395400ED38B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "创建地图上的大头针/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD4BE0CB1DAB395400ED38B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "创建地图上的大头针/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD4BE0CD1DAB395400ED38B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "创建地图上的大头针Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/创建地图上的大头针.app/创建地图上的大头针";
+			};
+			name = Debug;
+		};
+		BD4BE0CE1DAB395400ED38B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "创建地图上的大头针Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/创建地图上的大头针.app/创建地图上的大头针";
+			};
+			name = Release;
+		};
+		BD4BE0D01DAB395400ED38B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "创建地图上的大头针UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "创建地图上的大头针";
+			};
+			name = Debug;
+		};
+		BD4BE0D11DAB395400ED38B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "创建地图上的大头针UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "创建地图上的大头针";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD4BE0971DAB395400ED38B4 /* Build configuration list for PBXProject "创建地图上的大头针" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4BE0C71DAB395400ED38B4 /* Debug */,
+				BD4BE0C81DAB395400ED38B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4BE0C91DAB395400ED38B4 /* Build configuration list for PBXNativeTarget "创建地图上的大头针" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4BE0CA1DAB395400ED38B4 /* Debug */,
+				BD4BE0CB1DAB395400ED38B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD4BE0CC1DAB395400ED38B4 /* Build configuration list for PBXNativeTarget "创建地图上的大头针Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4BE0CD1DAB395400ED38B4 /* Debug */,
+				BD4BE0CE1DAB395400ED38B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD4BE0CF1DAB395400ED38B4 /* Build configuration list for PBXNativeTarget "创建地图上的大头针UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4BE0D01DAB395400ED38B4 /* Debug */,
+				BD4BE0D11DAB395400ED38B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD4BE0941DAB395400ED38B4 /* Project object */;
+}
