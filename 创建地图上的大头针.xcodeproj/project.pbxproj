@@ -15,6 +15,8 @@
 		BD4BE0AF1DAB395400ED38B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4BE0AD1DAB395400ED38B4 /* LaunchScreen.storyboard */; };
 		BD4BE0BA1DAB395400ED38B4 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4BE0B91DAB395400ED38B4 /* _________Tests.m */; };
 		BD4BE0C51DAB395400ED38B4 /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4BE0C41DAB395400ED38B4 /* _________UITests.m */; };
+		BD4BE0D41DAB443C00ED38B4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4BE0D31DAB443C00ED38B4 /* MapKit.framework */; };
+		BD4BE0DA1DAB480C00ED38B4 /* XMGAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4BE0D91DAB480C00ED38B4 /* XMGAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		BD4BE0C01DAB395400ED38B4 /* 创建地图上的大头针UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "创建地图上的大头针UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4BE0C41DAB395400ED38B4 /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
 		BD4BE0C61DAB395400ED38B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4BE0D31DAB443C00ED38B4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BD4BE0D81DAB480C00ED38B4 /* XMGAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGAnnotation.h; sourceTree = "<group>"; };
+		BD4BE0D91DAB480C00ED38B4 /* XMGAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD4BE0D41DAB443C00ED38B4 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,7 @@
 				BD4BE0B81DAB395400ED38B4 /* 创建地图上的大头针Tests */,
 				BD4BE0C31DAB395400ED38B4 /* 创建地图上的大头针UITests */,
 				BD4BE09D1DAB395400ED38B4 /* Products */,
+				BD4BE0D21DAB443C00ED38B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				BD4BE0A01DAB395400ED38B4 /* main.m */,
+				BD4BE0D81DAB480C00ED38B4 /* XMGAnnotation.h */,
+				BD4BE0D91DAB480C00ED38B4 /* XMGAnnotation.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +147,14 @@
 				BD4BE0C61DAB395400ED38B4 /* Info.plist */,
 			);
 			path = "创建地图上的大头针UITests";
+			sourceTree = "<group>";
+		};
+		BD4BE0D21DAB443C00ED38B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD4BE0D31DAB443C00ED38B4 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD4BE0A71DAB395400ED38B4 /* ViewController.m in Sources */,
+				BD4BE0DA1DAB480C00ED38B4 /* XMGAnnotation.m in Sources */,
 				BD4BE0A41DAB395400ED38B4 /* AppDelegate.m in Sources */,
 				BD4BE0A11DAB395400ED38B4 /* main.m in Sources */,
 			);
@@ -507,6 +525,7 @@
 				BD4BE0CB1DAB395400ED38B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD4BE0CC1DAB395400ED38B4 /* Build configuration list for PBXNativeTarget "创建地图上的大头针Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +534,7 @@
 				BD4BE0CE1DAB395400ED38B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD4BE0CF1DAB395400ED38B4 /* Build configuration list for PBXNativeTarget "创建地图上的大头针UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +543,7 @@
 				BD4BE0D11DAB395400ED38B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
